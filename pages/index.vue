@@ -2,12 +2,15 @@
   <div>
     
     <Slider></Slider>
-    <div class="container">
+    
       <TitleBlock>Matches</TitleBlock>
       <Matches></Matches>
-      <TitleBlock>Players</TitleBlock>
+      
+      <Players></Players>
       <TitleBlock>Content</TitleBlock>
-    </div>
+      <Content></Content>
+      <Sponsors></Sponsors>
+      <SiteFooter></SiteFooter>
 
   </div>
 </template>
@@ -17,13 +20,21 @@ import Logo from '~/components/Logo.vue'
 import Slider from '~/components/Slider.vue'
 import TitleBlock from '~/components/Title.vue'
 import Matches from '~/components/Matches.vue'
+import Players from '~/components/Players.vue'
+import Content from '~/components/Content.vue'
+import Sponsors from '~/components/Sponsors.vue'
+import SiteFooter from '~/components/SiteFooter.vue'
 
 export default {
   components: {
     Logo,
     Slider,
     TitleBlock,
-    Matches
+    Matches,
+    Players,
+    Content,
+    Sponsors,
+    SiteFooter
   }
 }
 </script>

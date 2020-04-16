@@ -1,7 +1,9 @@
 <template>
+<div class="container">
     <h2 class="title-h2">
         <slot></slot>
     </h2>
+</div>
 </template>
 
 <script>

@@ -188,7 +188,6 @@ export default {
 }
 
 .wrapper div {
-    width: 150px;
     margin-right: 15px;
     align-self: flex-end;
     transition: ease 0.2s;
@@ -223,7 +222,7 @@ export default {
       top: 0;
       left: 0;
       filter: brightness(0.5);
-        height: 500px;
+        height: 600px;
         width: 100%;
       object-fit: cover;
       z-index: -1;  
@@ -272,7 +271,7 @@ export default {
   .slider {
       position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: flex;
   }
 

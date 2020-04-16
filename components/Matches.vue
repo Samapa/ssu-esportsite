@@ -1,5 +1,5 @@
 <template>
-<div class="flex">
+<div class="container flex">
     <div class="matchTile" v-for="(tile, index) in tiles" :key="index">
         <div class="mapCard" :style="{backgroundImage: `url('${maps[tile.map]}')`}"></div>
         <div class="matchInfo">
@@ -72,7 +72,7 @@ export default {
 
     .mapCard {
         background-size: cover;
-        height: 150px;
+        height: 250px;
         background-position: center center;
     }
 

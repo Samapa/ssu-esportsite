@@ -53,6 +53,11 @@ export default {
 </script>
 
 <style scoped>
+
+.matchTile {
+    flex-direction: row;
+}
+
     .matchTile {
         flex: 1;
         max-width: 33%;
@@ -102,6 +107,21 @@ export default {
 
     .matchInfo p:last-of-type {
         padding-bottom: 20px;
+    }
+
+    @media only screen and (max-width: 420px) { 
+        .flex {
+            flex-direction: column;
+        }
+
+        .matchTile {
+            max-width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .matchTile:not(:last-of-type) {
+        margin-right: 0px;
+    }
     }
 
 </style>

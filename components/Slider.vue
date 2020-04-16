@@ -31,28 +31,28 @@ export default {
         {
           category: "esports",
           title: "SSU Esports win AEM Sydney",
-          image: "https://drive.google.com/uc?export=download&id=1quZpS5UE23QmUPAJLcGVGP_-8DgugEuA",
+          image: "/img/hero-01.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
           url: "/news"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Perth",
-          image: "https://drive.google.com/uc?export=download&id=1ubG3aVFuznne_l3CiQat2huV9cBGRfU5",
+          image: "/img/hero-02.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
           url: "/news"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Melbourne",
-          image: "https://drive.google.com/uc?export=download&id=0B1gtNUDwB5fSOWcyd25WQTNaVVU",
+          image: "/img/hero-03.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
           url: "/news"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Brisbane",
-          image: "https://drive.google.com/uc?export=download&id=1TUbSJdcWbq9acGp3M1dYdfJqtmMZMDG0",
+          image: "/img/hero-04.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
           url: "/news"
         }

@@ -4,7 +4,7 @@
         
         <img class="fade" :src="banner[currentSlide].image">
           <div class="slide-container">
-                  <img src="/img/logo.svg" alt="ssu-logo" class="logo"/>
+                  <img src="img/logo.svg" alt="ssu-logo" class="logo"/>
               <h3>{{banner[currentSlide].category}}</h3>
               <h2>{{banner[currentSlide].title}}</h2>
               <a :href="banner[currentSlide].url">Read More</a>
@@ -32,30 +32,30 @@ export default {
         {
           category: "esports",
           title: "SSU Esports win AEM Sydney",
-          image: "/img/hero-01.png",
+          image: "img/hero-01.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "/news"
+          url: "#"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Perth",
-          image: "/img/hero-02.png",
+          image: "img/hero-02.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "/news"
+          url: "#"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Melbourne",
-          image: "/img/hero-03.png",
+          image: "img/hero-03.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "/news"
+          url: "#"
         },
         {
           category: "esports",
           title: "SSU Esports win AEM Brisbane",
-          image: "/img/hero-04.png",
+          image: "img/hero-04.png",
           description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "/news"
+          url: "#"
         }
       ]
     };

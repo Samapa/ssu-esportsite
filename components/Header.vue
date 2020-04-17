@@ -2,10 +2,10 @@
   <div>
       <div class="mobileTop">
         <a id="mobileLogo">
-            <img src="/img/logoMobile.svg" alt="SSU Logo" />
+            <img src="img/logoMobile.svg" alt="SSU Logo" />
         </a>
         <a id="open">
-            <img src="/img/open.svg" alt="Open Icon" v-on:click="active = false" />
+            <img src="img/open.svg" alt="Open Icon" v-on:click="active = false" />
         </a>
       </div>
     <div class="SiteNav" :class="{hidden: active}">
@@ -13,10 +13,10 @@
         <li class="logoNav">
           <div>
             <a href="#" id="logoImage">
-              <img src="/img/logo.svg" alt="SSU Logo" />
+              <img src="img/logo.svg" alt="SSU Logo" />
             </a>
             <a id="close">
-              <img src="/img/close.svg" alt="Close Icon" v-on:click="active = true" />
+              <img src="img/close.svg" alt="Close Icon" v-on:click="active = true" />
             </a>
           </div>
         </li>
@@ -38,13 +38,13 @@
         <li>
           <div class="socials">
             <a href="https://www.facebook.com/SSUORGANISATION" target="_blank">
-              <img src="/img/Facebook-01.svg" alt="Facebook Logo" id="SocialIcon" />
+              <img src="img/Facebook-01.svg" alt="Facebook Logo" id="SocialIcon" />
             </a>
             <a href="https://twitter.com/SSUORGANISATION" target="_blank">
-              <img src="/img/Twitter-01.svg" alt="Twitter Logo" id="SocialIcon" />
+              <img src="img/Twitter-01.svg" alt="Twitter Logo" id="SocialIcon" />
             </a>
             <a href="https://www.youtube.com/channel/UCjaAz0tgJk_Q3_VTvr7XddQ" target="_blank">
-              <img src="/img/Youtube-01.svg" alt="Youtube Logo" id="SocialIcon" />
+              <img src="img/Youtube-01.svg" alt="Youtube Logo" id="SocialIcon" />
             </a>
           </div>
         </li>

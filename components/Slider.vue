@@ -19,6 +19,7 @@
           </div>
           
       </div>
+      <div class="break"></div>
   </div>
 </template>
 
@@ -63,7 +64,16 @@ export default {
 </script>
 
 <style scoped>
+
+.break {
+    background-color: #011321;
+    height: 50px;
+}
+
+
 @media only screen and (max-width: 420px) {
+
+
     .logo {
     width: 70px;
     height: 70px;

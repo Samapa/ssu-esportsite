@@ -1,15 +1,15 @@
 <template>
   <div>
-    
-    <Slider></Slider>
+    <Header></Header>
+    <Slider id="news"></Slider>
     
       <TitleBlock>Matches</TitleBlock>
       <Matches></Matches>
       
-      <Players></Players>
-      <TitleBlock>Content</TitleBlock>
+      <Players id="team" style="margin-top: 40px"></Players>
+      <TitleBlock id="content">Content</TitleBlock>
       <Content></Content>
-      <Sponsors></Sponsors>
+      <Sponsors id="sponsors"></Sponsors>
       <SiteFooter></SiteFooter>
 
   </div>
@@ -24,6 +24,7 @@ import Players from '~/components/Players.vue'
 import Content from '~/components/Content.vue'
 import Sponsors from '~/components/Sponsors.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
+import Header from '~/components/Header.vue'
 
 export default {
   components: {
@@ -34,43 +35,12 @@ export default {
     Players,
     Content,
     Sponsors,
-    SiteFooter
+    SiteFooter,
+    Header
   }
 }
 </script>
 
 <style>
-
-:root {
-  --highlight-one: #ce922a
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f6faf9;
-}
-
-.flex {
-  display: flex;
-}
-
-@media only screen and (max-width: 420px) {
-  .container {
-    padding: 20px;
-  }
-
-}
-
-
-@media only screen and (min-width: 421px) {
-  .container {
-    width: 1000px;
-    margin:auto;
-  }
-
-}
 
 </style>

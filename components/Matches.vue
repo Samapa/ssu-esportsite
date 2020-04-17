@@ -91,8 +91,8 @@ export default {
     }
 
     .matchButton a:hover {
-        color: var(--highlight-one);
-        background-color: #333333;
+        color: #ffffff;
+        background-color: #011321;
         transition: ease 0.2s;
     }
 

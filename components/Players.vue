@@ -277,7 +277,7 @@ export default {
     height: 850px;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+
   }
 
 }

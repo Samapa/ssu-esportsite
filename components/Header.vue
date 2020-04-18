@@ -46,6 +46,9 @@
             <a href="https://www.youtube.com/channel/UCjaAz0tgJk_Q3_VTvr7XddQ" target="_blank">
               <img src="img/Youtube-01.svg" alt="Youtube Logo" id="SocialIcon" />
             </a>
+            <a href="https://steamcommunity.com/groups/ssugamingclan" target="_blank">
+              <img src="img/SteamLogo-01.svg" alt="Steam Logo" id="SocialIcon" />
+            </a>
           </div>
         </li>
       </ul>

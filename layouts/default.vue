@@ -57,6 +57,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.banner {
+        height: 450px;
+        width: 100%;
+        object-fit: cover;
+    }
+
 :root {
   --highlight-one: #ce922a
 }
@@ -76,6 +82,10 @@ body {
 @media only screen and (max-width: 420px) {
   .container {
     padding: 20px;
+  }
+
+  .banner {
+    height: 250px;
   }
 
 }

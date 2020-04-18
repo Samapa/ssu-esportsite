@@ -1,6 +1,7 @@
 <template>
     <div>
         <Header></Header>
+        <img src="img/banner-02.png" class="banner" alt="banner"/>
         <TitleBlock style="padding-top: 50px">Content</TitleBlock>
         <Content></Content>
 

@@ -10,19 +10,19 @@
       <div>
         <ul class="footerRight">
          <li>
-          <a href="#team">Team</a>
+          <a href="team">Team</a>
         </li>
         <li>
-          <a href="#news">News</a>
+          <a href="news">News</a>
         </li>
         <li >
-          <a href="#content">Content</a>
+          <a href="content">Content</a>
         </li>
         <li>
-          <a>Staff</a>
+          <a href="staff">Staff</a>
         </li>
         <li>
-          <a href="#sponsors">Sponsors</a>
+          <a href="sponsors">Sponsors</a>
         </li>
         </ul>
       </div>

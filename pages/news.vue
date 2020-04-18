@@ -1,6 +1,7 @@
 <template>
     <div>
         <Header></Header>
+        <img src="img/banner-03.png" class="banner" alt="banner"/>
         <div class="ComingSoon">
             <h2>Coming Soon</h2>
         </div>

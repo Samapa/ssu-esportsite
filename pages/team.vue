@@ -1,6 +1,7 @@
 <template>
     <div>
         <Header></Header>
+        
         <Players style="padding-top: 40px"></Players>
 
             <TitleBlock>Matches</TitleBlock>

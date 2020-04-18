@@ -1,13 +1,14 @@
 <template>
     <div>
         <Header></Header>
+        
         <Sponsors style="padding-top: 40px"></Sponsors>
         <SiteFooter class="footerSticky"></SiteFooter>
     </div>
 </template>
 <script>
 import Header from '~/components/Header.vue'
-import Sponsors from '~/components/Sponsors.vue'
+import Sponsors from '~/components/Sponsors2.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 
 export default {

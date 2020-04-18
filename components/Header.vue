@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="mobileTop">
-        <a id="mobileLogo">
+        <a id="mobileLogo" href="#">
             <img src="img/logoMobile.svg" alt="SSU Logo" />
         </a>
         <a id="open">

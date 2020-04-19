@@ -8,7 +8,7 @@
             <p>{{tile.map}}</p>
         </div>
         <div class="matchButton">
-            <a href="#">View Match</a>
+            <a :href="tile.link">View Match</a>
         </div>
     </div>
 </div>
@@ -36,14 +36,14 @@ export default {
                     match: '',
                     date: 'TBA',
                     vs: 'TBA',
-                    link: '',
+                    link: '#',
                     map: 'TBA'
                 },
                 {
                     match: '',
                     date: 'TBA',
                     vs: 'TBA',
-                    link: '',
+                    link: '#',
                     map: 'TBA'
                 }
             ]

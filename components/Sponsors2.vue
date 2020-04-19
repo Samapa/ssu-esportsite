@@ -1,6 +1,6 @@
 <template>
     <div class="blue-bg flex">
-        <img src="img/hero-02.png" class="banner" alt="banner"/>
+        <img src="img/banner-05.png" class="banner" alt="banner"/>
         <TitleBlock style="color: white">Sponsors</TitleBlock>
         <div class="container">
             <ul class="sponsors">
@@ -25,19 +25,7 @@ export default {
         return {
             sponsors: [
                 {
-                    image: 'img/sponsor-01.png',
-                },
-                {
-                    image: 'img/sponsor-02.png',
-                },
-                {
-                    image: 'img/sponsor-03.png',
-                },
-                {
-                    image: 'img/sponsor-04.png',
-                },
-                {
-                    image: 'img/sponsor-05.png',
+                    image: '',
                 }
             ]
         }
@@ -47,7 +35,9 @@ export default {
 
 <style scoped>
 
-    
+    .banner {
+        object-position: center center;
+    }
 
     .blue-bg {
         background-color: #011321;

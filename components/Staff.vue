@@ -1,8 +1,11 @@
 <template>
     <div>
         <div class="container flex">
-            <div class="staffTile" v-for="(staffMember, index) in staff" :key="index" :style="{backgroundImage: `url('${staffMember.image}')`}">
+            <div class="staffTile" v-for="(staffMember, index) in staff" :key="index">
+                <img :src="staffMember.image" />
+               <div></div>
                <div class="staffInfo">
+                   
                     <h3>{{staffMember.role}}</h3>
                     <p>{{staffMember.name}}</p>
                     <a :href="staffMember.steam" target="_blank">
@@ -34,9 +37,19 @@ export default {
                     ign: 'Samapa',
                     steam: 'https://steamcommunity.com/id/Samapa',
                     email: 'samuel@samuelpalmer.info',
-                    image: 'img/staffplaceholder-01.svg',
+                    image: 'img/samapa.jpg',
                     twitter: 'https://twitter.com/EsSamapa',
                     youtube: 'https://www.youtube.com/channel/UCU-3JxNP3xHtFP-fRsXPWOg'
+                },
+                {
+                    name: 'Toby Palmer',
+                    role: 'General Manager',
+                    ign: 'Tobeusta',
+                    steam: 'https://steamcommunity.com/id/tobeusta',
+                    email: 'tobypalmer2001@gmail.com',
+                    image: 'img/tobe.jpg',
+                    twitter: 'https://twitter.com/Tobeusta',
+                    youtube: 'https://www.youtube.com/channel/UCh_GiKCIkJwmj67OX69adFQ'
                 }
             ]
         }
@@ -45,9 +58,15 @@ export default {
 </script>
 
 <style scoped>
+
+.flex {
+    flex-wrap: wrap;
+}
+
 .staffTile {
         flex: 1;
         max-width: 33%;
+        min-width: 30%;
         flex-direction: column;
         min-height: 450px;
         border-radius: 10px;
@@ -58,6 +77,16 @@ export default {
         justify-content: space-between;
         transition: ease 0.2s;
         transform: translateY(0px);
+        margin: 10px 20px 10px 0px;
+    }
+
+    .staffTile > img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: -1;
+        object-fit: cover;
+        filter: brightness(0.5);
     }
 
      .staffTile:hover {
@@ -65,9 +94,6 @@ export default {
         transition: ease 0.2s;
     }
 
-    .staffTile:not(:last-of-type) {
-        margin-right: 20px;
-    }
 
      .staffTile h3 {
         padding: 20px 20px 0 0;
@@ -91,27 +117,32 @@ export default {
         text-decoration: none;
     }
 
-    .staffTile img {
+    .staffInfo img {
         width: 35px;
     }
     
     .staffInfo {
-        padding: 20px
+        padding: 20px;
+        
     }
+
+    
 
 @media only screen and (max-width: 420px) { 
         .flex {
             flex-direction: column;
         }
 
-        .staffTile {
-            max-width: 100%;
-            margin-bottom: 20px;
+        .banner {
+            object-position: center center;
         }
 
-        .staffTile:not(:last-of-type) {
-        margin-right: 0px;
-    }
+        .staffTile {
+            max-width: 100%;
+            margin-bottom: 10px;
+            margin-right: 0;
+        }
+
     }
 
 </style>

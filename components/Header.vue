@@ -23,9 +23,6 @@
         <li>
           <a href="team">Team</a>
         </li>
-        <li>
-          <a href="news">News</a>
-        </li>
         <li >
           <a href="content">Content</a>
         </li>
@@ -48,6 +45,9 @@
             </a>
             <a href="https://steamcommunity.com/groups/ssugamingclan" target="_blank">
               <img src="img/SteamLogo-01.svg" alt="Steam Logo" id="SocialIcon" />
+            </a>
+            <a href="https://www.twitch.tv/ssuorganisation" target="_blank">
+              <img src="img/TwitchLogo-01.svg" alt="Twitch Logo" id="SocialIcon" />
             </a>
           </div>
         </li>

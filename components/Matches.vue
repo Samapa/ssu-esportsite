@@ -21,29 +21,30 @@ export default {
             maps: {
                 mirage: 'https://static.hltv.org/images/galleries/1693-medium/1370663191.8834.jpeg',
                 cobble: 'https://i.ytimg.com/vi/TxIFspGUlaQ/maxresdefault.jpg',
-                inferno: 'https://vignette.wikia.nocookie.net/cswikia/images/f/f0/Inferno.jpg/revision/latest?cb=20161014013320'
+                inferno: 'https://vignette.wikia.nocookie.net/cswikia/images/f/f0/Inferno.jpg/revision/latest?cb=20161014013320',
+                TBA: 'img/map-tba-01.png'
             },
             tiles: [
                 {
                     match: '',
-                    date: '10/10/2020',
-                    vs: 'OpTic Gaming',
-                    link: '',
-                    map: 'mirage'
-                },
-                {
-                    match: '',
-                    date: '10/10/2020',
-                    vs: 'Corvadae',
-                    link: '',
-                    map: 'cobble'
-                },
-                {
-                    match: '',
-                    date: '10/10/2020',
-                    vs: 'Complexity',
-                    link: '',
+                    date: '16/10/2020',
+                    vs: 'MARKandLARRY',
+                    link: 'https://play.esea.net/match/15918825',
                     map: 'inferno'
+                },
+                {
+                    match: '',
+                    date: 'TBA',
+                    vs: 'TBA',
+                    link: '',
+                    map: 'TBA'
+                },
+                {
+                    match: '',
+                    date: 'TBA',
+                    vs: 'TBA',
+                    link: '',
+                    map: 'TBA'
                 }
             ]
         } 

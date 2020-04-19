@@ -1,7 +1,7 @@
 <template>
     <div>
         <Header></Header>
-        <img src="img/banner-04.png" class="banner" alt="banner"/>
+        <img src="img/banner-03.png" class="banner" alt="banner"/>
         <TitleBlock>Staff</TitleBlock>
         <Staff></Staff>
         <Sponsors style="margin-top: 40px;"></Sponsors>

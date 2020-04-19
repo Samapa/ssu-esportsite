@@ -13,9 +13,6 @@
           <a href="team">Team</a>
         </li>
         <li>
-          <a href="news">News</a>
-        </li>
-        <li >
           <a href="content">Content</a>
         </li>
         <li>

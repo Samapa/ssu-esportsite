@@ -24,19 +24,7 @@ export default {
         return {
             sponsors: [
                 {
-                    image: 'img/sponsor-01.png',
-                },
-                {
-                    image: 'img/sponsor-02.png',
-                },
-                {
-                    image: 'img/sponsor-03.png',
-                },
-                {
-                    image: 'img/sponsor-04.png',
-                },
-                {
-                    image: 'img/sponsor-05.png',
+                    image: '',
                 }
             ]
         }

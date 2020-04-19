@@ -7,7 +7,7 @@
                   <img src="img/logo.svg" alt="ssu-logo" class="logo"/>
               <h3>{{banner[currentSlide].category}}</h3>
               <h2>{{banner[currentSlide].title}}</h2>
-              <a :href="banner[currentSlide].url">Read More</a>
+              <a :href="banner[currentSlide].url" target="_blank">More</a>
               <!-- <div @click="(currentSlide + 1) == banner.length ? currentSlide = 0 : currentSlide++">
                   next slide
               </div> -->
@@ -31,31 +31,31 @@ export default {
       banner: [
         {
           category: "esports",
-          title: "SSU Esports win AEM Sydney",
+          title: "SSU Esports re-enter CSGO",
           image: "img/hero-01.png",
-          description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "#"
+          description: "April 2020 SSU pickup Enz, Fazz, Klownie, Thrila and Crypt1c",
+          url: "https://twitter.com/SSUORGANISATION/status/1246658119448453121"
         },
         {
           category: "esports",
-          title: "SSU Esports win AEM Perth",
-          image: "img/hero-02.png",
-          description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "#"
-        },
-        {
-          category: "esports",
-          title: "SSU Esports win AEM Melbourne",
+          title: "SSU Esports come 2nd at AEM Season 3 LAN Finals",
           image: "img/hero-03.png",
-          description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "#"
+          description: "SSU take home a close 2nd vs Corvadae at the AEM LAN Finals",
+          url: "https://www.australianesportsmasters.com.au/news/36/Congratulations-Corvidae-for-taking-out-S3/"
         },
         {
           category: "esports",
-          title: "SSU Esports win AEM Brisbane",
+          title: "SSU Esports win Halo LAN Brisbane",
           image: "img/hero-04.png",
-          description: "SSU win against Corvadae at AEM Sydney 2018",
-          url: "#"
+          description: "SSU Halo take the win at Halo Australias Brisbane LAN Event",
+          url: "https://www.haloaustralia.com/"
+        },
+        {
+          category: "CONTENT",
+          title: "Watch Inner Working Episode One on YouTube",
+          image: "img/hero-02.png",
+          description: "Watch the first video in our new web-series Inner Workings",
+          url: "https://www.youtube.com/watch?v=677m8Tyyaww"
         }
       ]
     };
@@ -199,6 +199,7 @@ export default {
 
 .wrapper div {
     margin-right: 15px;
+    max-width: 25%;
     align-self: flex-end;
     transition: ease 0.2s;
     color: white;

@@ -61,6 +61,8 @@ html {
         height: 450px;
         width: 100%;
         object-fit: cover;
+        object-position: top center;
+        filter: grayscale();
     }
 
 :root {
@@ -86,10 +88,10 @@ body {
 
   .banner {
     height: 250px;
+    filter: grayscale();
   }
 
 }
-
 
 @media only screen and (min-width: 421px) {
   .container {

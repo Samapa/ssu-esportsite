@@ -26,6 +26,7 @@ import Sponsors from '~/components/Sponsors.vue'
 import SiteFooter from '~/components/SiteFooter.vue'
 import Header from '~/components/Header.vue'
 
+
 export default {
   components: {
     Logo,

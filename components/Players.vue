@@ -48,7 +48,7 @@ export default {
                 lname: 'Johnston',
                 ingamename: 'KlOwNie',
                 url: '',
-                image: 'img/players/player-02.png',
+                image: 'img/players/player-01.png',
                 description: 'IGL'
             }
             ,
@@ -57,7 +57,7 @@ export default {
                 lname: 'Fenech',
                 ingamename: 'thrila',
                url: '',
-                image: 'img/players/player-03.png',
+                image: 'img/players/player-01.png',
                 description: 'Entry'
             }
             ,
@@ -66,7 +66,7 @@ export default {
                 lname: 'Hancock',
                 ingamename: 'crypt1c',
                 url: '',
-                image: 'img/players/player-04.png',
+                image: 'img/players/player-01.png',
                 description: 'Support'
             }
             ,
@@ -75,7 +75,7 @@ export default {
                 lname: 'Bretherton',
                 ingamename: 'FAZZ',
                 url: '',
-                image: 'img/players/player-05.png',
+                image: 'img/players/player-01.png',
                 description: 'Awper'
             }
         ]

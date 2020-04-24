@@ -59,7 +59,7 @@ export default {
                     email: 'samuel@samuelpalmer.info',
                     image: 'img/yuki.jpg',
                     twitter: 'https://twitter.com/SSUYukizor',
-                    youtube: ''
+                    youtube: 'https://www.youtube.com/channel/UCjaAz0tgJk_Q3_VTvr7XddQ'
                 }
             ]
         }

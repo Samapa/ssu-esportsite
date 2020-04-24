@@ -50,6 +50,16 @@ export default {
                     image: 'img/tobe.jpg',
                     twitter: 'https://twitter.com/Tobeusta',
                     youtube: 'https://www.youtube.com/channel/UCh_GiKCIkJwmj67OX69adFQ'
+                },
+                {
+                    name: 'Luke Beard',
+                    role: 'Operations',
+                    ign: 'Yuki',
+                    steam: 'https://steamcommunity.com/id/animegaia/',
+                    email: 'samuel@samuelpalmer.info',
+                    image: 'img/yuki.jpg',
+                    twitter: 'https://twitter.com/SSUYukizor',
+                    youtube: ''
                 }
             ]
         }

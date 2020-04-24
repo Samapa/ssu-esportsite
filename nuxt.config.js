@@ -1,7 +1,5 @@
 export default {
-    router: {
-        base: '/ssu-esports/'
-    },
+
     mode: 'universal',
     /*
      ** Headers of the page

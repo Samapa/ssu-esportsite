@@ -27,17 +27,17 @@ export default {
             tiles: [
                 {
                     match: '',
+                    date: '30/04/2020',
+                    vs: 'Heartless',
+                    link: 'https://play.esea.net/match/15949217',
+                    map: 'TBA'
+                },
+                {
+                    match: '',
                     date: '16/10/2020',
                     vs: 'MARKandLARRY',
                     link: 'https://play.esea.net/match/15918825',
                     map: 'inferno'
-                },
-                {
-                    match: '',
-                    date: 'TBA',
-                    vs: 'TBA',
-                    link: '',
-                    map: 'TBA'
                 },
                 {
                     match: '',

@@ -22,15 +22,24 @@ export default {
                 mirage: 'https://static.hltv.org/images/galleries/1693-medium/1370663191.8834.jpeg',
                 cobble: 'https://i.ytimg.com/vi/TxIFspGUlaQ/maxresdefault.jpg',
                 inferno: 'https://vignette.wikia.nocookie.net/cswikia/images/f/f0/Inferno.jpg/revision/latest?cb=20161014013320',
+                train: 'https://vignette.wikia.nocookie.net/cswikia/images/4/4a/De_train_thumbnail.png/revision/latest?cb=20181004200630',
+                nuke: 'https://vignette.wikia.nocookie.net/cswikia/images/5/51/De_nuke_thumbnail.jpg/revision/latest?cb=20180209112248',
                 TBA: 'img/map-tba-01.png'
             },
             tiles: [
                 {
                     match: '',
+                    date: '29/04/2020',
+                    vs: 'Trevo',
+                    link: 'https://play.esea.net/match/15956669',
+                    map: 'train'
+                },
+                {
+                    match: '',
                     date: '30/04/2020',
                     vs: 'Heartless',
                     link: 'https://play.esea.net/match/15949217',
-                    map: 'TBA'
+                    map: 'nuke'
                 },
                 {
                     match: '',
@@ -38,13 +47,6 @@ export default {
                     vs: 'MARKandLARRY',
                     link: 'https://play.esea.net/match/15918825',
                     map: 'inferno'
-                },
-                {
-                    match: '',
-                    date: 'TBA',
-                    vs: 'TBA',
-                    link: '',
-                    map: 'TBA'
                 }
             ]
         } 

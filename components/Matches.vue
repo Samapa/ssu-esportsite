@@ -29,6 +29,13 @@ export default {
             tiles: [
                 {
                     match: '',
+                    date: '07/05/2020',
+                    vs: 'wuhan dragons',
+                    link: 'https://play.esea.net/match/15984692',
+                    map: 'inferno'
+                },
+                {
+                    match: '',
                     date: '29/04/2020',
                     vs: 'Trevo',
                     link: 'https://play.esea.net/match/15956669',
@@ -40,13 +47,6 @@ export default {
                     vs: 'Heartless',
                     link: 'https://play.esea.net/match/15949217',
                     map: 'nuke'
-                },
-                {
-                    match: '',
-                    date: '16/10/2020',
-                    vs: 'MARKandLARRY',
-                    link: 'https://play.esea.net/match/15918825',
-                    map: 'inferno'
                 }
             ]
         } 
